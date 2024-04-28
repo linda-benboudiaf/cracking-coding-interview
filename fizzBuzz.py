@@ -1,6 +1,6 @@
 def fizzbuzz(n):
     res = []
-    for i in range(0, n + 1):
+    for i in range(1, n + 1):
         if i % 3 == 0:
             res.append('fizz')
         elif i % 5 == 0:
@@ -9,5 +9,4 @@ def fizzbuzz(n):
             res.append('fizzBuzz')
         else:
             res.append(i)
-    print(res)
     return res
